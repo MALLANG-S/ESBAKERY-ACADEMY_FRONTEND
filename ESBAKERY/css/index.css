@@ -46,10 +46,10 @@ body		{ font-family: 'NanumSquare', monospace }
 }
 
 #LoginDropdown {
-    width: 350px !important;
-    height: 240px !important;
-    padding-top: 10px;
-    padding-right: 50px;
+    width: 300px !important;
+    height: 335px !important;
+    margin-top: 20px;
+    padding-bottom: 30px;
 }
 
 #form1Example3{
