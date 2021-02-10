@@ -9,13 +9,75 @@ body		{ font-family: 'NanumSquare', monospace }
 }
 
 #introduce{
-    font-size: 0.9em;
-    margin-top: 8px;
+    font-size: 1.3em;
+    margin-top: 15px;
     margin-left: 18px;
 }
 
-#yab{
-    font-size: 0.9em;
-    margin-top: 8px;
+#first{
+    font-size: 1.3em;
+    margin-top: 15px;
     margin-left: 30px;
+}
+
+#logo{
+    margin-left: 30px;
+}
+
+#chheck{
+    font-family: 'NanumSquare', monospace;
+}
+
+}
+#login{
+    font-family: 'NanumSquare', monospace;
+}
+
+.dropdown-menu{
+    opacity: 1;
+    text-align: center;
+    width: 15px;
+}
+
+#login-btn{
+    margin-right: 10px;
+    background: #F5E9DA;
+    color: black;
+}
+
+#LoginDropdown {
+    width: 350px !important;
+    height: 240px !important;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+#form1Example3{
+    background: #F5E9DA;
+}
+
+#carouselExampleFade{
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 10px;
+    width: 32%;
+    height: 350px;
+    float:left;
+
+}
+
+#carouselExampleFade1{
+    margin-top: 150px;
+    margin-left: 0px;
+    width: 32%;
+    height: 350px;
+    float:left;
+}
+
+#carouselExampleFade2{
+    margin-top: 150px;
+    margin-left: 10px;
+    width: 32%;
+    height: 350px;
+    float:left;
 }
