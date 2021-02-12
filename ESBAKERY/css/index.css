@@ -58,26 +58,26 @@ body		{ font-family: 'NanumSquare', monospace }
 
 #carouselExampleFade{
     margin-top: 150px;
-    margin-left: 30px;
-    margin-right: 10px;
-    width: 32%;
-    height: 350px;
+    margin-left: 50px;
+    width: 30%;
+    height: 300px;
     float:left;
 
 }
 
 #carouselExampleFade1{
     margin-top: 150px;
-    margin-left: 0px;
-    width: 32%;
-    height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+    height: 300px;
     float:left;
 }
 
 #carouselExampleFade2{
     margin-top: 150px;
-    margin-left: 10px;
-    width: 32%;
-    height: 350px;
+    margin-right: 20px;
+    width: 30%;
+    height: 300px;
     float:left;
 }
