@@ -28,7 +28,6 @@ body		{ font-family: 'NanumSquare', monospace }
     font-family: 'NanumSquare', monospace;
 }
 
-}
 #login{
     font-family: 'NanumSquare', monospace;
 }
@@ -80,4 +79,12 @@ body		{ font-family: 'NanumSquare', monospace }
     width: 30%;
     height: 300px;
     float:left;
+}
+
+.text-logo{
+    margin-top: 20px;
+}
+
+.text-href{
+    margin-right: 30px;
 }
