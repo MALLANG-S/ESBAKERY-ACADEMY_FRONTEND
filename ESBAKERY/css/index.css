@@ -38,12 +38,105 @@ body		{ font-family: 'NanumSquare', monospace }
     width: 15px;
 }
 
+#three{
+    color: black;
+}
+
 #login-btn{
     margin-right: 10px;
     background: #F5E9DA;
     color: black;
 }
 
+#left-minibar{
+    margin-left: 7%;
+    width: 20px;
+    margin-bottom: 5%;
+    position: fixed;
+    color:black;
+}
+
+#right-minibar{
+    width: 20px;
+    margin-bottom: 5%;
+    position: fixed;
+    margin-right: 8%;
+    color: #000;
+}
+
+#sign-btn{
+    width: fit-content;
+    margin-right: 20px;
+    color: black;
+    border-color: #F5E9DA;
+    background-color: #ff000000;
+}
+
+.card1{
+    width: 15%;
+    float:left;
+    margin-left: 10%;
+}
+#certi{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.card2{
+    width: 15%;
+    float:left;
+    margin-left: 1%;
+}
+
+.card3{
+    width: 15%;
+    float:left;
+    margin-left: 1%;
+}
+
+#cara-btn{
+    color: black;
+}
+
+.card4{
+    width: 15%;
+    float:left;
+    margin-left: 1%;
+}
+.card5{
+    width: 15%;
+    float:left;
+    margin-left: 1%;
+}
+
+#menu{
+    float:left;
+}
+
+.card-img{
+    width: 10px;
+    height: 200px;
+}
+
+.mb-4{
+    padding-top: 30px;
+}
+
+.mb-5{
+    margin-bottom: 10px;
+}
+
+
+#bond-carousel{
+    height: 800px;
+}
+
+#main-carousel{
+    opacity: 0.92;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
 #LoginDropdown {
     width: 300px !important;
     height: 335px !important;
@@ -87,4 +180,9 @@ body		{ font-family: 'NanumSquare', monospace }
 
 .text-href{
     margin-right: 30px;
+}
+
+
+#scrollpls{
+    width: 100%;
 }
