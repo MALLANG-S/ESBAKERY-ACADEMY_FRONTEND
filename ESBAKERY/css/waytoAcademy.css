@@ -72,9 +72,10 @@ body {
     background-color: #ff000000;
   }
   
+
   .sidenav {
     width: 200px;
-    height: max-content;
+    height: fit-content;
     margin-top: 10%;
     position: fixed;
     z-index: 1;
@@ -82,25 +83,14 @@ body {
     left: 0;
     margin-left: 5%;
     background-color: #f5e9da;
-    overflow-x: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
   
-  .sidenav a {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #5D5D5D;
-    text-align: center;
-    display: block;
+  .side-nav1{
+      text-align: center;
+      padding-top: 6%;
+      padding-bottom: 6%;
   }
-  
-  .sidenav a:hover {
-    color: black;
-  }
-  
+
   .text-logo {
     margin-top: 23px;
   }
@@ -119,3 +109,43 @@ body {
   iframe{
       margin-bottom: 2%;
   }
+
+
+.button-2{
+  width:inherit;
+  height:50px;
+  float:left;
+  text-align:center;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+
+.button-2 a{
+  font-size:14px;
+  color:#34495e;
+  text-decoration:none;
+  cursor:pointer;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+
+.eff-2{
+  width:inherit;
+  height:50px;
+  top:-50px;
+  background:#34495e;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+
+.button-2:hover .eff-2{
+  top:0;
+}
+
+.button-2:hover a{
+  color:#fff;
+}
