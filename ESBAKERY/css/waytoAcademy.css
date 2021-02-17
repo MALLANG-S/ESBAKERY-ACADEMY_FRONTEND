@@ -149,3 +149,11 @@ body {
 .button-2:hover a{
   color:#fff;
 }
+
+iframe{
+  margin-left: 30%
+}
+
+#bot-intro{
+  margin-left: 38%;
+}

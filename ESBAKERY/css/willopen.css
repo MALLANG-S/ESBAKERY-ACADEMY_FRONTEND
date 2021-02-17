@@ -155,7 +155,7 @@ h2 {
 /*sidenav animation */
 
 .pagination {
-  margin-left: 30%;
+  margin-left: 40%;
   margin-top: 5%;
 }
 
@@ -177,4 +177,29 @@ h2 {
   margin-right: 10px;
   width: 150px;
   float: right;
+}
+
+#table-number1{
+  background-color: #F5E9DA;
+  border: black 1px solid;
+}
+
+#table-see1{
+  background-color: #F5E9DA;
+  border: black 1px solid;
+}
+
+#table-title1{
+  background-color: #F5E9DA;
+  border: black 1px solid;
+}
+
+#table-writer1{
+  background-color: #F5E9DA;
+  border: black 1px solid;
+}
+
+#table-date1{
+  background-color: #F5E9DA;
+  border: black 1px solid;
 }
