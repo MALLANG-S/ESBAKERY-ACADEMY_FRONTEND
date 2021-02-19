@@ -1,0 +1,108 @@
+body {
+    font-family: "NanumSquare", monospace;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .bolder {
+    font-weight: 800;
+  }
+  .light {
+    font-weight: 300;
+  }
+  /*header default*/
+  #introduce {
+    font-size: 1.3em;
+    margin-top: 15px;
+    padding-left: 18px;
+  }
+  
+  #first {
+    font-size: 1.3em;
+    margin-top: 15px;
+    padding-left: 30px;
+  }
+  
+  #logo {
+    padding-left: 30px;
+  }
+  
+  #chheck {
+    font-family: "NanumSquare", monospace;
+  }
+  
+  #LoginDropdown {
+    width: 300px !important;
+    height: 310px !important;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  #login {
+    font-family: "NanumSquare", monospace;
+  }
+  
+  .dropdown-menu {
+    opacity: 1;
+    text-align: center;
+    width: 15px;
+  }
+  
+  #three {
+    color: black;
+  }
+  
+  #login-btn {
+    margin-right: 10px;
+    background: #f5e9da;
+    color: black;
+  }
+  
+  #login-btn1 {
+    background: #f5e9da;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  #sign-btn {
+    width: fit-content;
+    margin-right: 20px;
+    color: black;
+    border-color: #f5e9da;
+    background-color: #ff000000;
+  }
+  
+  /*header default*/
+  
+  .text-logo {
+    margin-top: 23px;
+  }
+  
+  h2 {
+    margin-bottom: 2%;
+  }
+
+.mainbody{
+    margin-top: 7%;
+    background-image: url("../img/SignUp_BG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-box{
+    width: 50%;
+    margin-left : 20%;
+}
+
+.btn-confirm{
+  background: #f5e9da;
+  color: black;
+}
+
+.btn-register{
+  background: #f5e9da;
+  color: black;
+  width: 30%;
+  margin-left: 50%;
+}
