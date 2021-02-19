@@ -21,7 +21,7 @@
 
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
-    <link rel="stylesheet" href="./css/willopeninside.css" />
+    <link rel="stylesheet" href="./css/ reference.css" />
   </head>
 
   <body>
@@ -170,16 +170,20 @@
           <div class="col-lg-2" id="side-nav">
             <div class="sidenav">
                 <div class= "side-nav1">
-              <a style="color: black">개설 예정 과정</a></div>
+              <a style="color: black">게시판</a></div>
               
               <div class="button-2">
                 <div class="eff-2"></div>
-                <a href="./WillOpen.html">국비 지원 과정</a>
+                <a href="./WillOpen.html">시험 일정표</a>
               </div>
               <div class="dropdown-divider"></div>
               <div class="button-2">
                 <div class="eff-2"></div>
-                <a href="./WillOpenInside.html">원내 교육 과정</a>
+                <a href="./Certification.html">자격증</a>
+              </div>
+              <div class="button-2">
+                <div class="eff-2"></div>
+                <a href="./Reference.html">자료실</a>
               </div>
             </div>
           </div>
@@ -187,52 +191,136 @@
 
 
           <div class="col-lg-10" id="main-body">
-            <h2>원내 교육 과정</h2>
+            <h2>자료실</h2>
             <!--table-->
-            <table class="table" id="curriculum">
-                <colgroup>
-                    <col style="width: 10%;"/>
-                    <col style="width: 50%"/>
-                    <col style="width: 15%"/>
-                    <col style="width: 15%"/>
-                    <col style="width: 10%"/>
-                </colgroup>
-                <thead>
-                  <tr>
-                    <th scope="col" id="table-number1">번호</th>
-                    <th scope="col" id="table-title1">제목</th>
-                    <th scope="col" id="table-writer1">글쓴이</th>
-                    <th scope="col" id="table-date1">날짜</th>
-                    <th scope="col" id="table-see1">조회</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td id="table-number">101</td>
-                    <td id="table-title"><a href="#" style="color: black;">원내 교육 과정 입니다.</a></td>
-                    <td id="table-writer">은성제과</td>
-                    <td id="table-date">2020-09-22</td>
-                    <td id="table-see">100</td>
-                  </tr>
-                  <tr>
-                    <td id="table-number">101</td>
-                    <td id="table-title"><a href="#" style="color: black;">원내 교육 과정 입니다.</a></td>
-                    <td id="table-writer">은성제과</td>
-                    <td id="table-date">2020-09-22</td>
-                    <td id="table-see">100</td>
-                  </tr>
-                  <tr>
-                    <td id="table-number">101</td>
-                    <td id="table-title"><a href="#" style="color: black;">원내 교육 과정 입니다.</a></td>
-                    <td id="table-writer">은성제과</td>
-                    <td id="table-date">2020-09-22</td>
-                    <td id="table-see">100</td>
-                  </tr>
-                </tbody>
-              </table>
-              <!--table-->
+          <!--table-->
+          <table class="table" id="curriculum">
+            <colgroup>
+                <col style="width: 10%;"/>
+                <col style="width: 50%"/>
+                <col style="width: 15%"/>
+                <col style="width: 15%"/>
+                <col style="width: 10%"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col" id="table-number1">번호</th>
+                <th scope="col" id="table-title1">제목</th>
+                <th scope="col" id="table-writer1">글쓴이</th>
+                <th scope="col" id="table-date1">날짜</th>
+                <th scope="col" id="table-see1">조회</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="table-number">101</td>
+                <td id="table-title"><a href="#" style="color: black;">국비 지원 과정 입니다.</a></td>
+                <td id="table-writer">은성제과</td>
+                <td id="table-date">2020-09-22</td>
+                <td id="table-see">100</td>
+              </tr>
+              <tr>
+                <td id="table-number">101</td>
+                <td id="table-title"><a href="#" style="color: black;">국비 지원 과정 입니다.</a></td>
+                <td id="table-writer">은성제과</td>
+                <td id="table-date">2020-09-22</td>
+                <td id="table-see">100</td>
+              </tr>
+              <tr>
+                <td id="table-number">101</td>
+                <td id="table-title"><a href="#" style="color: black;">국비 지원 과정 입니다.</a></td>
+                <td id="table-writer">은성제과</td>
+                <td id="table-date">2020-09-22</td>
+                <td id="table-see">100</td>
+              </tr>
+            </tbody>
+          </table>
+          <!--table-->
 
-              <!--pagination-->
+          <!--pagination-->
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page" >
+                <a class="page-link" href="#" style="background-color: #f5e9da; color: black;" >2 <span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+          <!--pagination-->
+
+          <!--search-btn-->
+          <div class="dropdown1">
+              <button
+                 class="btn btn-primary"
+                 type="button"
+                 id="dropdownMenuButton"
+              > 검색
+              </button>
+          </div>
+          <!--search-btn-->
+
+          <!--search-form-->
+          <div class="form-outline" id="input">
+            <input type="text" id="form1" class="form-control" />
+            <label class="form-label" for="form1">검색</label>
+          </div>
+          <!--search-form-->
+
+          <!--search-btn-->
+          <div class="dropdown1">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              and
+            </button>
+            <!--search-btn-dropdown-->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">and</a></li>
+              <li><a class="dropdown-item" href="#">or</a></li>
+            </ul>
+          </div>
+
+          <!--search-btn-->
+          <div class="dropdown1">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              제목
+            </button>
+            <!--search-btn-dropdown-->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">제목</a></li>
+              <li><a class="dropdown-item" href="#">내용</a></li>
+              <li><a class="dropdown-item" href="#">제목+내용</a></li>
+              <li><a class="dropdown-item" href="#">회원 아이디</a></li>
+              <li><a class="dropdown-item" href="#">회원 아이디(코)</a></li>
+              <li><a class="dropdown-item" href="#">이름</a></li>
+              <li><a class="dropdown-item" href="#">이름(코)</a></li>
+            </ul>
+          </div>
+
+          
+          
+    </div>
+          <!--table-->
+              
+              
+                <!--pagination-->
               <nav aria-label="...">
                 <ul class="pagination">
                   <li class="page-item disabled">

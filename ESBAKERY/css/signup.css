@@ -84,20 +84,32 @@ body {
 
 .mainbody{
     margin-top: 7%;
+    color: black;
     background-image: url("../img/SignUp_BG.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
 }
 
 #main-box{
-    width: 50%;
-    margin-left : 20%;
+  background-color: #ffffff;
+  color: black;
+  height: fit-content;
+  width: 700px;
+  vertical-align: middle;
+  justify-content: center;
+  margin-left: 350px;
+  color: black;
+  z-index: 2;
+  opacity: 0.85;
 }
 
 .btn-confirm{
   background: #f5e9da;
   color: black;
+  margin-left: -30px;
+
 }
 
 .btn-register{
@@ -105,4 +117,49 @@ body {
   color: black;
   width: 30%;
   margin-left: 50%;
+}
+
+h4{
+  color: black;
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+.form-control{
+  width: 180px;
+  z-index: 1;
+  margin-top: 0;
+}
+
+label{
+  width: 200px;
+}
+
+#left-form{
+  width: 180px;
+  margin-left: 20%;
+  margin-right: 0;
+  margin-top: 0;
+  
+}
+
+#double-check{
+  width: 150px;
+}
+
+#right-form{
+  width: 180px;
+  margin-left: 5%;
+  margin-right: 0;
+  margin-top: 0;
+}
+#right-form1{
+  width: 180px;
+  margin-left: 55%;
+  margin-right: 0;
+}
+
+#check-box{
+  margin-left: 5%;
+
 }

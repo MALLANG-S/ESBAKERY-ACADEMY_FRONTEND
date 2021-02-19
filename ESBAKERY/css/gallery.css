@@ -84,13 +84,11 @@ body {
   background-color: #f5e9da;
 }
 
-.side-nav1{
-    text-align: center;
-    padding-top: 6%;
-    padding-bottom: 6%;
+.side-nav1 {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
-
-  
 
 .text-logo {
   margin-top: 23px;
@@ -102,49 +100,72 @@ body {
   margin-top: 150px;
 }
 
-h2{
-    margin-bottom: 3%;
-    padding: 0;
+h2 {
+  margin-bottom: 3%;
+  padding: 0;
+}
+
+.button-2 {
+  width: inherit;
+  height: 50px;
+  float: left;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.button-2 a {
+  font-size: 14px;
+  color: #34495e;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 50px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  position: relative;
+}
+
+.eff-2 {
+  width: inherit;
+  height: 50px;
+  top: -50px;
+  background: #34495e;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.button-2:hover .eff-2 {
+  top: 0;
+}
+
+.button-2:hover a {
+  color: #fff;
 }
 
 
+.pagination {
+  margin-left: 40%;
+  margin-top: 5%;
+}
 
-.button-2{
-    width:inherit;
-    height:50px;
-    float:left;
-    text-align:center;
-    position:relative;
-    box-sizing:border-box;
-    overflow:hidden;
-  }
+/* 아래 드랍다운들(제목, and)*/
+#dropdownMenuButton {
+  background-color: #ff000000;
+  color: black;
+  margin-bottom: 20px;
+}
 
-  .button-2 a{
-    font-size:14px;
-    color:#34495e;
-    text-decoration:none;
-    cursor:pointer;
-    line-height:50px;
-    transition:all .5s ease;
-    z-index:2;
-    position:relative;
-  }
-  
-  .eff-2{
-    width:inherit;
-    height:50px;
-    top:-50px;
-    background:#34495e;
-    position:absolute;
-    transition:all .5s ease;
-    z-index:1;
-  }
-  
-  .button-2:hover .eff-2{
-    top:0;
-  }
-  
-  .button-2:hover a{
-    color:#fff;
-  }
-  
+.dropdown1 {
+  float: right;
+  margin-right: 10px;
+}
+/* 아래 드랍다운들(제목, and)*/
+
+/*검색 input */
+#input {
+  margin-right: 10px;
+  width: 150px;
+  float: right;
+}

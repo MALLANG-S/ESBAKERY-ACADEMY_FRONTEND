@@ -212,4 +212,10 @@ body {
 
 #test-title{
     margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#site{
+    color: black;
+    cursor: pointer;
 }

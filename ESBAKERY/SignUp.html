@@ -41,7 +41,7 @@
               <a class="nav-link" href="./course.html" id="introduce">교육 과정</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="introduce">공지사항</a>
+              <a class="nav-link" href="./Notice.html" id="introduce">공지사항</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./Board.html" id="introduce">게시판</a>
@@ -50,13 +50,13 @@
               <a class="nav-link" href="./WillOpen.html" id="introduce">개설 예정 과정</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="introduce">갤러리</a>
+              <a class="nav-link" href="./Gallery.html" id="introduce">갤러리</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="introduce">문의/예약</a>
+              <a class="nav-link" href="./QandA.html" id="introduce">문의/예약</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="introduce">관련사이트</a>
+              <a class="nav-link" href="./Site.html" id="introduce">관련사이트</a>
             </li>
           </ul>
           <div>
@@ -115,29 +115,30 @@
     <section class="mb-5">
       <div class="row d-flex justify-content-center" id="main-box">
         <div class="col-lg-12 col-md-3" id="text-field">
-          <h4 class="mb-5 text-center text-white" style="padding-top: 10%;"><strong>회원가입</strong></h4>
+          <h4 class="mb-5s" style="padding-top: 10%;"><strong>회원가입</strong></h4>
           <form>
             <!-- 2 column grid layout with text inputs for the first and last names -->
             <div class="row mb-4">
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline" id="left-form">
                     <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label text-white" for="form3Example1">아이디</label>
+                    <label class="form-label " for="form3Example1">아이디</label>
                   </div>
                 </div>
               </div>
-              <div class="row col-lg-2 col-md-3">
-                <button type="submit" class="btn btn-primary btn-block mb-4 btn-confirm">
+              <div class="row col-lg-2 col-md-3" id="double-check">
+                <a href="#" id="double-link"><button type="submit" class="btn btn-primary btn-block mb-4 btn-confirm">
                   중복 확인
                 </button>
+              </a>  
               </div>
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
                   <!-- Password input -->
-                  <div class="form-outline mb-4" id="form3Example4">
+                  <div class="form-outline mb-4" id="right-form">
                     <input type="email" id="form3Example4" class="form-control" />
-                    <label class="form-label text-white" for="form3Example4">비밀번호 입력</label>
+                    <label class="form-label" for="form3Example4">비밀번호 입력</label>
                   </div>
                 </div>
               </div>
@@ -146,47 +147,49 @@
             <div class="row mb-4">
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline"  id="left-form">
                     <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label text-white" for="form3Example1">이메일</label>
+                    <label class="form-label" for="form3Example1">이메일</label>
                   </div>
                 </div>
               </div>
-              <div class="row col-lg-2 col-md-3">
-                <button type="submit" class="btn btn-primary btn-block mb-4 btn-confirm">
+              <div class="row col-lg-2 col-md-3" id="double-check">
+                <a href="#" id="double-link"><button type="submit" class="btn btn-primary btn-block mb-4 btn-confirm" >
                   중복 확인
-                </button>
+                </button></a>
+                
               </div>
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
                   <!-- Password input -->
-                  <div class="form-outline mb-4">
+                  <div class="form-outline mb-4" id="right-form">
                     <input type="password" id="form3Example5" class="form-control" />
-                    <label class="form-label text-white" for="form3Example5">비밀번호 확인</label>
+                    <label class="form-label " for="form3Example5">비밀번호 확인</label>
                   </div>
                 </div>
               </div>
             </div>
-
             <div class="row mb-4">
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline"  id="left-form">
                     <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label text-white" for="form3Example1">별명</label>
+                    <label class="form-label" for="form3Example1">별명</label>
                   </div>
                 </div>
               </div>
-              <div class="row col-lg-2 col-md-3">
-                <button type="submit" class="btn btn-primary btn-block mb-4 btn-confirm">
-                  중복 확인
-                </button>
+              <div class="row col-lg-2 col-md-3"  id="double-check">
+                <a href="#" id="double-link">
+                  <button type="submit" class="btn btn-primary btn-block mb-4 btn-confirm">
+                    중복 확인
+                  </button>
+                </a>
               </div>
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline" id="right-form">
                     <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label text-white" for="form3Example2">비밀번호 분실 시 답변</label>
+                    <label class="form-label" for="form3Example2">비밀번호 분실 시 답변</label>
                   </div>
                 </div>
               </div>
@@ -195,17 +198,17 @@
             <div class="row mb-4">
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline"  id="left-form">
                     <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label text-white" for="form3Example1">이름</label>
+                    <label class="form-label" for="form3Example1">이름</label>
                   </div>
                 </div>
               </div>
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline" id="right-form1">
                     <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label text-white" for="form3Example2">비밀번호 분실 시 질문</label>
+                    <label class="form-label " for="form3Example2">비밀번호 분실 시 질문</label>
                   </div>
                 </div>
               </div>
@@ -214,59 +217,62 @@
             <div class="row mb-4">
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline"  id="left-form"> 
                     <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label text-white" for="form3Example1">생년월일</label>
+                    <label class="form-label " for="form3Example1">생년월일</label>
                   </div>
                 </div>
               </div>
               <div class="row col-lg-5 col-md-3">
                 <div class="col">
-                  <div class="form-outline">
+                  <div class="form-outline" id="right-form1">
                     <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label text-white" for="form3Example2">서명</label>
+                    <label class="form-label" for="form3Example2">서명</label>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="row mb-4">
-              <div class="row col-lg-5 col-md-3">
-                <div class="col text-white">
-                  메일로 소식을 받으시겠습니까?
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
-                </div>
-              </div>
               <div class="row col-lg-5 col-md-3">
                 <!-- Email input -->
-                <div class="form-outline mb-4">
+                <div class="form-outline mb-4" id="right-form1">
                   <input type="password" id="form3Example9" class="form-control" />
-                  <label class="form-label text-white" for="form3Example9">보안코드 입력</label>
+                  <label class="form-label " for="form3Example9">보안코드 입력</label>
                 </div>
               </div>
             </div>
 
             <div class="row mb-4">
               <div class="row col-lg-5 col-md-3">
-                <div class="col text-white">
+                <div class="col" id="check-box">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                  메일로 소식을 받으시겠습니까?
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="row col-lg-5 col-md-3">
+                <div class="col" id="check-box">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
                   SNS로 소식을 받으시겠습니까?
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
                 </div>
               </div>
             </div>
 
             <div class="row mb-4">
               <div class="row col-lg-5 col-md-3">
-                <div class="col text-white">
-                  정보를 공개하시겠습니까?
+                <div class="col" id="check-box">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                  정보를 공개하시겠습니까?
                 </div>
               </div>
             </div>
 
             <!-- Submit button -->
             <button type="submit" id="sub-btn" class="btn btn-primary btn-block mb-4 btn-register">
-              등록하기
+              회원가입
             </button>
           </form>
         </div>
