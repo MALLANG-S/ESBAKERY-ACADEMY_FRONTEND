@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?
+include_once("./_common.php"); 
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/lib/outlogin.lib.php"); 
+
+?>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +13,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>은성제과제빵커피학원</title>
+    <title>은성제과제빵커피정은학원</title>
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -376,7 +382,7 @@
             <div id="menu">
               <div class="card1">
                 <img
-                  src="img/certificate/confectionery_pecan.jpg"
+                  src="img/pecan-1736875_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -390,7 +396,7 @@
               </div>
               <div class="card2">
                 <img
-                  src="img/certificate/bread.jpg"
+                  src="img/croissants-3652582_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -404,7 +410,7 @@
               </div>
               <div class="card3">
                 <img
-                  src="img/certificate/confectionery.jpg"
+                  src="img/muffins-2951757_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -417,7 +423,7 @@
               </div>
               <div class="card4">
                 <img
-                  src="img/certificate/cake.jpg"
+                  src="img/cake-486874_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -428,7 +434,7 @@
               </div>
               <div class="card5">
                 <img
-                  src="./img/certificate/coffee.jpg"
+                  src="./img/coffee-983955_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -445,7 +451,7 @@
             <div id="menu">
               <div class="card1">
                 <img
-                  src="img/certificate/cookies.jpg"
+                  src="img/cookies-3798903_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -458,7 +464,7 @@
               </div>
               <div class="card2">
                 <img
-                  src="img/certificate/macaroon.jpg"
+                  src="img/cookies-4053771_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -471,7 +477,7 @@
               </div>
               <div class="card3">
                 <img
-                  src="img/certificate/chocolate.jpg"
+                  src="img/praline-182861_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -482,7 +488,7 @@
               </div>
               <div class="card4">
                 <img
-                  src="img/certificate/sandwich.jpg"
+                  src="img/sandwich-1238615_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -495,7 +501,7 @@
               </div>
               <div class="card5">
                 <img
-                  src="img/certificate/dessert.jpg"
+                  src="img/dessert-1850627_640.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -657,4 +663,4 @@
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
   </body>
-</html>
+  </html>
