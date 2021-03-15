@@ -763,7 +763,7 @@ a {
   display: block;
   width: 5%;
   height: 100%;
-  background: #F87C23;
+  background: #ffbe76;
   position: absolute;
   top: 0;
   left: 0
@@ -958,7 +958,7 @@ a {
 }
 
 .offer {
-  background: url("../img/home/parallax-bg.png") right center no-repeat;
+  background: url("../img/home/parallax-bg-ex.png") right center no-repeat;
   background-size: cover
 }
 
@@ -1303,8 +1303,8 @@ a {
 }
 
 .button:hover {
-  border-color: #F87C23;
-  background: #F87C23;
+  border-color: #b2bec3;;
+  background: #b2bec3;
   color: white
 }
 
@@ -4786,4 +4786,14 @@ a {
     padding-top: 115px !important;
     padding-bottom: 115px !important
   }
+}
+
+#big-row{
+  width: 100%;
+}
+
+#affiliated-site{
+  overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 15%; 
 }
