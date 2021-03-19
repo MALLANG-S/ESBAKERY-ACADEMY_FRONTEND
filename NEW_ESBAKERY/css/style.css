@@ -1256,7 +1256,16 @@ a {
 
 .button-login {
   font-size: 15px;
-  padding: 7px 44px
+  padding: 7px 44px;
+  background: #260101;
+  border: #260101;
+}
+
+.button-login:hover {
+  background: #260101;
+  border: #260101;
+  opacity: .7;
+  color: #FFF;
 }
 
 .button-coupon {
@@ -1322,12 +1331,14 @@ a {
   border-radius: 0;
   padding: 9px 15px;
   text-transform: uppercase;
-  background: #733729;
+  background: #260101;
+  opacity: .7;
+  color: #fff
 }
 
 .button-register:hover {
-  background: #733729;
-  opacity: .7;
+  background: #260101;
+  opacity: 1;
   color: #fff
 }
 
@@ -1338,12 +1349,13 @@ a {
   padding: 9px 15px;
   text-transform: uppercase;
   background: #260101;
+  opacity: .7;
+  color: #fff
 }
 
 .button-confirm:hover {
   background: #260101;
-  opacity: .7;
-  color: #fff
+  opacity: 1;
 }
 .blog-banner {
   position: relative
@@ -3320,11 +3332,15 @@ a {
 }
 
 .billing_details .contact_form .form-group .creat_account #f-option2 {
-  margin-right: 5px
+  margin-right: 5px;
 }
 
 .billing_details .contact_form .form-group .creat_account #f-option3 {
-  margin-right: 5px
+  margin-right: 5px;
+}
+
+.billing_details .contact_form .form-group .creat_account #f-option4 {
+  margin-right: 5px;
 }
 
 .billing_details .contact_form .form-group .creat_account a {
@@ -3675,7 +3691,7 @@ a {
   height: 100%;
   width: 100%;
   content: "";
-  background: #733729;
+  background: #260101;
   opacity: .9
 }
 
@@ -3746,7 +3762,7 @@ a {
   height: 100%;
   width: 100%;
   content: "";
-  background: #733729;
+  background: #260101;
   opacity: .9
 }
 
