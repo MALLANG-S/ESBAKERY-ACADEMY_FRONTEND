@@ -85,6 +85,10 @@ a {
   margin: 45px 0
 }
 
+.sectionbox-margin {
+  margin-bottom: 100px;
+}
+
 @media (min-width: 980px) {
   .section-margin {
     margin: 70px 0
@@ -1318,15 +1322,29 @@ a {
   border-radius: 0;
   padding: 9px 15px;
   text-transform: uppercase;
-  background: #c5322d
+  background: #733729;
 }
 
 .button-register:hover {
-  background: #c5322d;
+  background: #733729;
   opacity: .7;
   color: #fff
 }
 
+.button-confirm {
+  font-size: 14px;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-transform: uppercase;
+  background: #260101;
+}
+
+.button-confirm:hover {
+  background: #260101;
+  opacity: .7;
+  color: #fff
+}
 .blog-banner {
   position: relative
 }
@@ -3627,9 +3645,81 @@ a {
   font-size: 12px;
   color: #384aeb
 }
+.register_box_area .register_box_img{
+  height: 350px;
+  
+  position: relative
+}
+
+@media (min-width: 1000px) {
+  .register_box_area .register_box_img {
+    height: 1018px
+  }
+}
+
+@media (min-width: 991px) {
+  .register_box_area .register_box_img {
+    margin-right: -30px
+  }
+}
+
+
+.register_box_area .register_box_img img {
+  width: 100%
+}
+
+.register_box_area .register_box_img:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #733729;
+  opacity: .9
+}
+
+.register_box_area .register_box_img .hover {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  transform: translateY(-50%)
+}
+
+.register_box_area .register_box_img .hover h4 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px
+}
+
+.register_box_area .register_box_img .hover p {
+  max-width: 390px;
+  margin: 0px auto 28px;
+  color: #fff
+}
+
+.register_box_area .register_box_img .hover .primary-btn {
+  border-radius: 0px;
+  line-height: 38px;
+  text-transform: uppercase
+}
+
+.register_box_area .register_box_img .hover .primary-btn:hover:before {
+  left: 260px
+}
+
+.register_box_area .register_box_img .button:hover {
+  background: #260101 !important;
+  color: #fff !important;
+  border-color: #260101 !important
+}
 
 .login_box_area .login_box_img {
   height: 350px;
+  
   position: relative
 }
 
@@ -3656,7 +3746,7 @@ a {
   height: 100%;
   width: 100%;
   content: "";
-  background: #384aeb;
+  background: #733729;
   opacity: .9
 }
 
@@ -3693,9 +3783,9 @@ a {
 }
 
 .login_box_area .login_box_img .button:hover {
-  background: #c5322d !important;
+  background: #260101 !important;
   color: #fff !important;
-  border-color: #c5322d !important
+  border-color: #260101 !important
 }
 
 .login_form_inner {
