@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>은성제과제빵커피학원</title>
-	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="icon" href="img/Fevicon.png" type="image/png">
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
@@ -17,13 +18,15 @@
 
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <!--================ Start Header Menu Area =================-->
-	<header class="header_area">
+  <header class="header_area">
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a class="navbar-brand logo_h" href="index.html" style="width:20%; height:10%; margin-left:-10%"><img src="img/logo.png" alt="" style="width:90%; height:90%; margin-left:-10%" ></a>
+          <a class="navbar-brand logo_h" href="index.html" style="width:20%; height:10%; margin-left:-10%"><img
+              src="img/logo.png" alt="" style="width:90%; height:90%; margin-left:-10%"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           </button>
@@ -36,7 +39,7 @@
                   <li class="nav-item"><a class="nav-link" href="category.html">소개 및 인사말</a></li>
                   <li class="nav-item"><a class="nav-link" href="single-product.html">오시는 길</a></li>
                 </ul>
-							</li>
+              </li>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">교육 과정</a>
@@ -49,9 +52,9 @@
                   <li class="nav-item"><a class="nav-link" href="cart.html">제빵 20</a></li>
                   <li class="nav-item"><a class="nav-link" href="cart.html">제과 20</a></li>
                 </ul>
-							</li>
+              </li>
               <li class="nav-item"><a class="nav-link" href="index.html">공지사항</a></li>
-							<li class="nav-item submenu dropdown">
+              <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">게시판</a>
                 <ul class="dropdown-menu">
@@ -82,17 +85,59 @@
       </nav>
     </div>
   </header>
-	<!--================ End Header Menu Area =================-->
+  <!--================ End Header Menu Area =================-->
 
   <main class="site-main">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <h3>2021년 국비(실업자, 재직자) 훈련생 모집</h3>
+        <p id="modal-contents">
+          훈련과정명 : 제과제빵기능사과정(필기, 실기)<br />
+          훈련기간 : 2021.03.30 ~ 2021.06.11 (50회)<br />
+          훈련시간 : 09:30 ~ 12:30 (3시간)<br />
+          훈련비 : 1,019,550원 (본인부담금은 개인별로 차이가 있음)<br />
+          훈련 내용 : 제과.제빵 기능사 품목<br />
+          훈련 대상자 : 국민내일배움카드 소지자<br />
+          훈련과정 신청 방법<br />
+          ① &nbsp;hrd-net 온라인 수강신청 후 고용센터 상담 필수 <br />
+          ② &nbsp;고용센터 상담 후 수강신청 <br />
+          ※ 훈련시간 140시간 이상 과정은 고용센터 상담을 통해 훈련기간 수강신청이 이루어짐 <br />
+          문의 : 은성제과제빵커피학원 (055-339-7663)
+        </p>
+        <div style="
+              cursor: pointer;
+              background-color: #dddddd;
+              text-align: center;
+              padding-bottom: 10px;
+              padding-top: 10px;
+            " onClick="close_pop();">
+          <span class="pop_bt" style="font-size: 13pt"> 닫기 </span>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        $("#myModal").show();
+      });
+      // Popup Close
+      function close_pop(flag) {
+        $("#myModal").hide();
+      }
+    </script>
+    <!--End Modal-->
     <!--================ Hero banner start =================-->
     <section class="hero-banner">
       <div class="container">
         <div class="row no-gutters align-items-center pt-60px">
           <div class="col-5 d-none d-sm-block">
             <div class="hero-banner__img">
-              <img class="img-fluid" src="img/home/main_bread.jpg" alt="" >
+              <img class="img-fluid" src="img/home/main_bread.jpg" alt="">
             </div>
           </div>
           <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
@@ -119,7 +164,7 @@
     </section>
     <!-- ================ Best Selling item  carousel end ================= -->
 
-<!--
+    <!--
     <section class="section-margin mt-0">
       <div class="owl-carousel owl-theme hero-carousel">
         <div class="hero-carousel__slide">
@@ -149,7 +194,8 @@
 
 
     <!-- ================ offer section start ================= -->
-    <section class="offer" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+    <section class="offer" id="parallax-1" data-anchor-target="#parallax-1"
+      data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
       <div class="container">
         <div class="row">
           <div class="col-xl-5">
@@ -358,7 +404,8 @@
                 </ul>
                 <h4 class="card-blog__title">"전 세계 배고픈 어린이들 돕는 단체 만들고 싶어"</h4>
                 <p>"빵이라는 먹을거리와 제과제빵 재능을 바탕으로 한 글로벌 봉사단체를 김해에서 꼭 만들어보고 싶습니다."</p>
-                <a class="card-blog__link" href="http://www.gimhaenews.co.kr/news/articleView.html?idxno=11006">Read More <i class="ti-arrow-right"></i></a>
+                <a class="card-blog__link" href="http://www.gimhaenews.co.kr/news/articleView.html?idxno=11006">Read
+                  More <i class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -375,7 +422,9 @@
                 </ul>
                 <h4 class="card-blog__title">북구 만덕3동, ‘내가 만든 사랑 듬뿍 케이크’ 체험행사 열어</h4>
                 <p>은성제과 제빵커피학원원장 배대석 회원의 재능기부와 청소년지도위원회의 자원봉사로 추진되었으며, 자라나는 청소년들에게 좋은 추억을 선물하고자 마련됐다.</p>
-                <a class="card-blog__link" href="http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20190104.99099001675">Read More <i class="ti-arrow-right"></i></a>
+                <a class="card-blog__link"
+                  href="http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20190104.99099001675">Read More
+                  <i class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -392,7 +441,8 @@
                 </ul>
                 <h4 class="card-blog__title">공부하는 제빵사 배대석의 공부 내인생의 이야기</h4>
                 <p>작은 나눔을 실천하며 끊임없이 공부하는 배대석 제빵사의 이야기입니다.</p>
-                <a class="card-blog__link" href="https://www.youtube.com/watch?v=wDkUPxtToJU">Read More <i class="ti-arrow-right"></i></a>
+                <a class="card-blog__link" href="https://www.youtube.com/watch?v=wDkUPxtToJU">Read More <i
+                    class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -405,66 +455,37 @@
     <section class="subscribe-position">
       <div class="container">
         <!--Affiliated site Logo-->
-      <div class="row" id="big-row">
-        <div class="col-lg-2 col-md-4" id="affiliated-site">
-          <a
-            class="nav-link"
-            aria-current="page"
-            id="affiliated-logo1"
-          >
-            <img src="img/home/banner01.png" alt="" width="156px" height="74px" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4" id="affiliated-site">
-          <a
-            class="nav-link"
-            aria-current="page"
-            href="https://cb.dongju.ac.kr/cb"
-            id="affiliated-logo2"
-          >
-            <img src="img/home/banner02.jpg" alt="" width="156px" height="50px" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4" id="affiliated-site">
-          <a
-            class="nav-link"
-            aria-current="page"
-            href="http://www.hrdkorea.or.kr/"
-            id="affiliated-logo3"
-          >
-            <img src="img/home/banner03.jpg" alt="" width="156px" height="50px" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4" id="affiliated-site">
-          <a
-            class="nav-link"
-            aria-current="page"
-            href="http://www.moel.go.kr/index.do"
-            id="affiliated-logo4"
-          >
-            <img src="img/home/banner04.jpg" alt="" width="156px" height="50px" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4" id="affiliated-site">
-          <a
-            class="nav-link"
-            aria-current="page"
-            href="http://0zip.co.kr/"
-            id="affiliated-logo5"
-          >
-            <img src="img/home/banner05.jpg" alt="" width="156px" height="50px" />
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4" id="affiliated-site">
-          <a
-            class="nav-link"
-            aria-current="page"
-            href="http://www.artisan.or.kr/index.php"
-            id="affiliated-logo6"
-          >
-            <img src="img/home/banner06.jpg" alt="" width="156px" height="50px" />
-          </a>
-        </div>
+        <div class="row" id="big-row">
+          <div class="col-lg-2 col-md-4" id="affiliated-site">
+            <a class="nav-link" aria-current="page" id="affiliated-logo1">
+              <img src="img/home/banner01.png" alt="" width="156px" height="74px" />
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4" id="affiliated-site">
+            <a class="nav-link" aria-current="page" href="https://cb.dongju.ac.kr/cb" id="affiliated-logo2">
+              <img src="img/home/banner02.jpg" alt="" width="156px" height="50px" />
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4" id="affiliated-site">
+            <a class="nav-link" aria-current="page" href="http://www.hrdkorea.or.kr/" id="affiliated-logo3">
+              <img src="img/home/banner03.jpg" alt="" width="156px" height="50px" />
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4" id="affiliated-site">
+            <a class="nav-link" aria-current="page" href="http://www.moel.go.kr/index.do" id="affiliated-logo4">
+              <img src="img/home/banner04.jpg" alt="" width="156px" height="50px" />
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4" id="affiliated-site">
+            <a class="nav-link" aria-current="page" href="http://0zip.co.kr/" id="affiliated-logo5">
+              <img src="img/home/banner05.jpg" alt="" width="156px" height="50px" />
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4" id="affiliated-site">
+            <a class="nav-link" aria-current="page" href="http://www.artisan.or.kr/index.php" id="affiliated-logo6">
+              <img src="img/home/banner06.jpg" alt="" width="156px" height="50px" />
+            </a>
+          </div>
         </div>
       </div>
       <!--Affiliated site Logo-->
@@ -478,77 +499,81 @@
 
 
   <!--================ Start footer Area  =================-->
-	<footer class="footer">
-		<div class="footer-area">
-			<div class="container">
-				<div class="row section_gap">
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="single-footer-widget tp_widgets">
-							<h4 class="footer_title large_title">ESBAKERY</h4>
-							<p>
-								프로를 향한 첫 걸음. 은성제과제빵커피학원이 당신의 꿈과 함께합니다.
-							</p>
-						</div>
-					</div>
-					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
-						<div class="single-footer-widget tp_widgets">
-							<h4 class="footer_title">Quick Links</h4>
-							<ul class="list">
-								<li><a href="#">학원 소개</a></li>
-								<li><a href="#">교육 과정</a></li>
-								<li><a href="#">공지사항</a></li>
-								<li><a href="#">게시판</a></li>
-								<li><a href="#">개설 예정 과정</a></li>
-								<li><a href="#">문의/예약</a></li>
-							</ul>
-						</div>
-					</div>
+  <footer class="footer">
+    <div class="footer-area">
+      <div class="container">
+        <div class="row section_gap">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget tp_widgets">
+              <h4 class="footer_title large_title">ESBAKERY</h4>
+              <p>
+                프로를 향한 첫 걸음. 은성제과제빵커피학원이 당신의 꿈과 함께합니다.
+              </p>
+            </div>
+          </div>
+          <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+            <div class="single-footer-widget tp_widgets">
+              <h4 class="footer_title">Quick Links</h4>
+              <ul class="list">
+                <li><a href="#">학원 소개</a></li>
+                <li><a href="#">교육 과정</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">게시판</a></li>
+                <li><a href="#">개설 예정 과정</a></li>
+                <li><a href="#">문의/예약</a></li>
+              </ul>
+            </div>
+          </div>
 
-					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
-						<div class="single-footer-widget tp_widgets">
-							<h4 class="footer_title">Contact Us</h4>
-							<div class="ml-40">
-								<p class="sm-head">
-									<span class="fa fa-location-arrow"></span>
-									Head Office
-								</p>
-								<p>경상남도 김해시 가락로 10</p>
+          <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget tp_widgets">
+              <h4 class="footer_title">Contact Us</h4>
+              <div class="ml-40">
+                <p class="sm-head">
+                  <span class="fa fa-location-arrow"></span>
+                  Head Office
+                </p>
+                <p>경상남도 김해시 가락로 10</p>
 
-								<p class="sm-head">
-									<span class="fa fa-phone"></span>
-									Number
-								</p>
-								<p>
-									055-339-7663
-								</p>
+                <p class="sm-head">
+                  <span class="fa fa-phone"></span>
+                  Number
+                </p>
+                <p>
+                  055-339-7663
+                </p>
 
-								<p class="sm-head">
-									<span class="fa fa-envelope"></span>
-									Email
-								</p>
-								<p>
-									free@infoexample.com <br>
-									www.infoexample.com
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                <p class="sm-head">
+                  <span class="fa fa-envelope"></span>
+                  Email
+                </p>
+                <p>
+                  free@infoexample.com <br>
+                  www.infoexample.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="row d-flex">
-					<p class="col-lg-12 footer-text text-center">
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================ End footer Area  =================-->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row d-flex">
+          <p class="col-lg-12 footer-text text-center">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by
+            <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--================ End footer Area  =================-->
 
 
 
@@ -561,4 +586,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="vendors/mail-script.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
