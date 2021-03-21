@@ -1,0 +1,121 @@
+<?
+
+include_once("./_common.php"); 
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/head.php");
+
+?>
+<html>
+<head>
+<script language="javascript" src="/js/jsCommon.js"></script>
+<LINK 
+href="/css/dong.css" type=text/css rel=stylesheet>
+<title>은성제과제빵학원</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table border="0" width="100%" height="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" valign="top" align="center" height="462"><table width="869" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="883" height="71" valign="top" background="/image/subtop_bg.jpg"><table width="869" height="79" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="170" valign="top"><table width="170" height="79" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td valign="top"><div id="sublogo">
+                      <script language="javascript"> SetInnerHTML(document.all.sublogo, 
+        MakeFlashString('/flash/sublogo.swf','emb1','170','79','transparent', 
+        '<PARAM  name="sublogo" value="false">')); </script>
+                  </div></td>
+                </tr>
+            </table></td>
+            <td width="713" valign="top"><table width="687" height="32" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="687" height="32"><table border="0" align="right" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <!-- 처음으로 버튼 -->
+                        <td width="30"><a href="<?=$g4['path']?>/"><img src="/image/arrow01.jpg" width="3" height="5" border="0"> 홈</a></td>
+                        <? if (!$member['mb_id']) { ?>
+                        <!-- 로그인 이전 -->
+                        <td width="50"><a href="<?=$g4['path']?>/"><img src="/image/arrow01.jpg" width="3" height="5" border="0"> </a><a href="<?=$g4['bbs_path']?>/login.php?url=<?=$urlencode?>">로그인</a></td>
+                        <td width="60"><a href="<?=$g4['path']?>/"><img src="/image/arrow01.jpg" width="3" height="5" border="0"> </a><a href="<?=$g4['bbs_path']?>/register.php">회원가입</a></td>
+                        <? } else { ?>
+                        <!-- 로그인 이후 -->
+                        <td width="60"><a href="<?=$g4['path']?>/"><img src="/image/arrow01.jpg" width="3" height="5" border="0"> </a><a href="<?=$g4['bbs_path']?>/logout.php">로그아웃</a></td>
+                        <td width="60"><a href="<?=$g4['path']?>/"><img src="/image/arrow01.jpg" width="3" height="5" border="0"> </a><a href="<?=$g4['bbs_path']?>/member_confirm.php?url=register_form.php">정보수정</a></td>
+                        <? } ?>
+                        <!-- 최근게시물 버튼 -->
+                        <td width="60"><a href="<?=$g4['path']?>/"><img src="/image/arrow01.jpg" width="3" height="5" border="0"> </a><a href="<?=$g4['bbs_path']?>/sitemap.php">사이트맵</a></td>
+                      </tr>
+                  </table></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="71" valign="top"><img src="/image/info_top.jpg" width="869" height="143"></td>
+      </tr>
+      <tr>
+        <td height="142" valign="top"><table width="869" height="147" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="168" valign="top"><table width="170" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="13" valign="top" background="/image/submenu_bg.jpg"><div id="submenu">
+                      <script language="javascript"> SetInnerHTML(document.all.submenu, 
+        MakeFlashString('/flash/infomenu.swf','emb1','170','300','transparent', 
+        '<PARAM  name="submenu" value="false">')); </script>
+                  </div></td>
+              </tr>
+              <tr>
+                <td height="13" valign="top"><div id="subbanner">
+                      <script language="javascript"> SetInnerHTML(document.all.subbanner, 
+        MakeFlashString('/flash/subbanner.swf','emb1','170','345','transparent', 
+        '<PARAM  name="subbanner" value="false">')); </script>
+                  </div></td>
+              </tr>
+            </table></td>
+            <td width="20" valign="top"><img src="../image/sub_sy.jpg" width="20" height="2"></td>
+            <td width="679" valign="top"><table width="679" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="13" valign="top"><div id="subquick">
+                      <script language="javascript"> SetInnerHTML(document.all.subquick, 
+        MakeFlashString('/flash/subquick.swf','emb1','679','44','transparent', 
+        '<PARAM  name="subquick" value="false">')); </script>
+                  </div></td>
+              </tr>
+              <tr>
+                <td height="13" valign="top"><img src="/image/info_title01.jpg" width="679" height="33"></td>
+              </tr>
+              <tr>
+                <td height="197" valign="top"><br>
+                    <br>
+                        <br>
+                      <img src="./img/info01.jpg" width="679" height="653"></td>
+              </tr>
+              <tr>
+                <td height="50" valign="top">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="13" valign="top"><div id="subcopy">
+                      <script language="javascript"> SetInnerHTML(document.all.subcopy, 
+        MakeFlashString('/flash/subcopy.swf','emb1','679','69','transparent', 
+        '<PARAM  name="subcopy" value="false">')); </script>
+                  </div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+
+</body>
+
+</html>
+
+
