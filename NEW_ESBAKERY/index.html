@@ -21,7 +21,6 @@
 
 </html>
 </title>
-<link rel="icon" href="img/Fevicon.png" type="image/png">
 <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
@@ -96,9 +95,10 @@
             </ul>
 
             <ul class="nav-shop">
-              <li class="nav-item"><button><i class="ti-search" style="margin-right:-20px"></i></button>
+              <li class="nav-item" ><button ><i class="ti-search" ></i></button>
               </li>
-              <li class="nav-item"><a class="button button-header" href="login.html">로그인</a></li>
+              <li class="nav-item" style="margin-left:15px"><a class="button button-header" href="login.html" >로그인</a></li>
+              <li class="nav-item"  style="margin-right:3px"> <a class="button button-header" href="login.html">관리자</a></li>
             </ul>
           </div>
         </div>
@@ -107,50 +107,6 @@
   </header>
   <!--================ End Header Menu Area =================-->
 
-  <main class="site-main">
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <h3>2021년 국비(실업자, 재직자) 훈련생 모집</h3>
-        <p id="modal-contents">
-          훈련과정명 : 제과제빵기능사과정(필기, 실기)<br />
-          훈련기간 : 2021.03.30 ~ 2021.06.11 (50회)<br />
-          훈련시간 : 09:30 ~ 12:30 (3시간)<br />
-          훈련비 : 1,019,550원 (본인부담금은 개인별로 차이가 있음)<br />
-          훈련 내용 : 제과.제빵 기능사 품목<br />
-          훈련 대상자 : 국민내일배움카드 소지자<br />
-          훈련과정 신청 방법<br />
-          ① &nbsp;hrd-net 온라인 수강신청 후 고용센터 상담 필수 <br />
-          ② &nbsp;고용센터 상담 후 수강신청 <br />
-          ※ 훈련시간 140시간 이상 과정은 고용센터 상담을 통해 훈련기간 수강신청이 이루어짐 <br />
-          문의 : 은성제과제빵커피학원 (055-339-7663)
-        </p>
-        <div style="
-              cursor: pointer;
-              background-color: #dddddd;
-              text-align: center;
-              padding-bottom: 10px;
-              padding-top: 10px;
-            " onClick="close_pop();">
-          <span class="pop_bt" style="font-size: 13pt"> 닫기 </span>
-        </div>
-      </div>
-    </div>
-
-
-    <script type="text/javascript">
-      jQuery(document).ready(function () {
-        $("#myModal").show();
-      });
-      // Popup Close
-      function close_pop(flag) {
-        $("#myModal").hide();
-      }
-    </script>
-    <!--End Modal-->
     <!--================ Hero banner start =================-->
     <section class="hero-banner">
       <div class="container">
@@ -204,11 +160,8 @@
                 </tr>
               </tbody>
             </table>
-            <div class="row d-flex justify-content-center" id="curriculum-btn">
-              <a href="./notice.html" style="color:  #260101;">
-                <button type="button" class="btn btn-outline-dark btn-rounded">더보기
-                </button>
-              </a>
+            <div class="row d-flex justify-content-center">
+              <a class="button button-hero" href="#">더보기</a>
             </div>
           </div>
           <div class="col-md-12 col-lg-6 customservice-box">
@@ -239,10 +192,9 @@
               </tbody>
             </table>
             <div class="row d-flex justify-content-center" id="curriculum-btn">
-              <a href="./contact.html" style="color:#260101;">
-                <button type="button" class="btn-main btn btn-outline-dark btn-rounded">더보기
-                </button>
-              </a>
+              <div class="row d-flex justify-content-center">
+                <a class="button button-hero" href="#">더보기</a>
+              </div>
             </div>
           </div>
         </div>
@@ -279,7 +231,7 @@
     -->
 
     <!-- Gallery section -->
-    <div class="gallery-section">
+    <!-- <div class="gallery-section">
       <div class="gallery">
         <div class="grid-sizer"></div>
         <div class="gallery-item gi-long set-bg" data-setbg="img/gallery/1.jpg">
@@ -313,8 +265,36 @@
           <a class="img-popup" href="img/gallery/7.jpg"><i class="ti-plus"></i></a>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Gallery section -->
+
+    <!--================ Hero Carousel start =================-->
+    <section class="section-margin mt-0">
+      <div class="owl-carousel owl-theme hero-carousel">
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide1.png" alt="" class="img-fluid">
+          <a href="./Gallery.html" class="hero-carousel__slideOverlay">
+            <h3>Wireless Headphone</h3>
+            <p>Accessories Item</p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide2.png" alt="" class="img-fluid">
+          <a href="./Gallery.html" class="hero-carousel__slideOverlay">
+            <h3>Wireless Headphone</h3>
+            <p>Accessories Item</p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide3.png" alt="" class="img-fluid">
+          <a href="./Gallery.html" class="hero-carousel__slideOverlay">
+            <h3>Wireless Headphone</h3>
+            <p>Accessories Item</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--================ Hero Carousel end =================-->
 
     <!-- ================ offer section start ================= -->
     <!--section class="offer" id="parallax-1" data-anchor-target="#parallax-1"
@@ -338,7 +318,7 @@
     <section class="section-margin calc-60px">
       <div class="container">
         <div class="section-intro pb-60px">
-          <p>강의 수강 시 취득 가능한 자격증들</p>
+          <p>certification</p>
           <h2>취득 가능한 <span class="section-intro__style">자격증</span></h2>
         </div>
         <div class="owl-carousel owl-theme" id="bestSellerCarousel">
@@ -510,7 +490,7 @@
     <section class="blog">
       <div class="container">
         <div class="section-intro pb-60px">
-          <p>은성의 뉴스를 알아봅시다</p>
+          <p>News</p>
           <h2><span class="section-intro__style">은성 News</span></h2>
         </div>
 
