@@ -1579,6 +1579,10 @@ a {
   z-index: 1;
 }
 
+.area{
+  background-image: url("../img/plan_top02.jpg");
+}
+
 @media (min-width: 1000px) {
   .blog-banner-area {
     height: 290px;
@@ -2520,9 +2524,8 @@ a {
 }
 
 .comment-form {
-  background: #fafaff;
+  background: #ffffff;
   text-align: center;
-  border: 1px solid #eee;
   padding: 47px 30px 43px;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -5564,4 +5567,62 @@ a {
 
 .gallery-section {
   margin-bottom: 20%;
+}
+
+.comment-form-warp {
+	padding: 40px 0;
+	border-top: 1px solid #f5f5f5;
+}
+
+.comment-form input[type='text'],
+.comment-form input[type='email'],
+.comment-form textarea {
+	width: 100%;
+	border: 1px solid #cccccc;
+	font-size: 14px;
+	padding: 18px 20px;
+	margin-bottom: 30px;
+	border-radius: 2px;
+}
+
+.comment-form textarea {
+	height: 150px;
+}
+
+.comment-form.--contact input[type='text'],
+.comment-form.--contact input[type='email'],
+.comment-form.--contact textarea {
+	border: 1px solid #e1e1e1;
+}
+
+.comment-form.--contact textarea {
+	margin-bottom: 50px;
+}
+
+.site-btn {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	background: #260101;
+	color: #fff;
+	padding: 18px 30px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 14px;
+	border-radius: 50px;
+	min-width: 170px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+
+.contact-form{
+  border-color: #260101;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 5%;
+}
+
+.board-textarea{
+  resize: none;
 }
