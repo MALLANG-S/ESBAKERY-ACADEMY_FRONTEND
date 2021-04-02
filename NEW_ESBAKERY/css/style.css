@@ -4150,7 +4150,7 @@ a {
 }
 
 .register_form_inner {
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 .instagram_area {
@@ -5339,9 +5339,15 @@ a {
   margin-top: 3rem !important;
 }
 
+.mt-10,
+.my-10 {
+  margin-top: 6rem !important;
+}
+
 .block-27 ul {
   padding: 0;
   margin: 0;
+
 }
 
 .block-27 ul li {
@@ -5712,4 +5718,103 @@ a {
 
 .find-h5{
   margin-bottom: 15px;
+}
+
+.board-form{
+  border-color: #260101;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 10px;
+}
+
+.boardDetail-form{
+  margin-top: -10px;
+}
+
+#table-number1{
+  vertical-align : middle;
+}
+
+#table-title1{
+  vertical-align : middle;
+}
+
+#table-writer1{
+  vertical-align : middle;
+}
+
+#table-date1{
+  vertical-align : middle;
+}
+
+#table-see1{
+  vertical-align : middle;
+}
+
+#table-esle1{
+  vertical-align : middle;
+}
+
+#table-number{
+  vertical-align : middle;
+}
+
+#table-title{
+  vertical-align : middle;
+}
+
+#table-writer{
+  vertical-align : middle;
+}
+
+#table-date{
+  vertical-align : middle;
+}
+
+#table-see{
+  vertical-align : middle;
+}
+
+#table-esle{
+  vertical-align : middle;
+}
+
+#table-else{
+  vertical-align : middle;
+}
+
+.pageN-board{
+  margin-left: 26%;
+  margin-bottom: 5%;
+}
+
+.select-board{
+ margin-left: 20%;
+}
+
+.pageN-notice{
+  margin-left: 28%;
+  margin-bottom: 5%;
+}
+
+.select-notice{
+  margin-left: 228px;
+}
+
+.detail-button{
+  margin-top: 15%;
+  margin-right: 21px;
+}
+
+.detail-btns{
+  margin-left: 80%;
+}
+
+.pageN-course{
+  margin-left: 28%;
+  margin-bottom: 5%;
+}
+
+.select-course{
+  margin-left: 13%;
 }
