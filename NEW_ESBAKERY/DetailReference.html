@@ -87,18 +87,11 @@
   <!--================ End Header Menu Area =================-->
 
 
-  <!-- ================ start banner area ================= -->
-  <section class="area blog-banner-area" id="category">
-    <div class="container h-100">
+  <section class="blog-banner-area" id="category">
+    <div class="container">
       <div class="blog-banner">
         <div class="text-center">
-          <h1>공지사항</h1>
-          <nav aria-label="breadcrumb" class="banner-breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Notice</li>
-            </ol>
-          </nav>
+          <h1>게시판</h1>
         </div>
       </div>
     </div>
@@ -106,15 +99,23 @@
   <!-- ================ end banner area ================= -->
 
   <!--================Board Area =================-->
-  <section class="section-margin--small">
+  <section class="section-margin--small mb-5">
     <div class="container">
       <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-2">
           <div class="service_details_left">
-            <h3>공지 사항</h3>
+            <h3>게시판</h3>
             <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a href="./introduce.html" class=" active" id="v-pills-home-tab" role="tab" aria-controls="v-pills-home"
-                aria-selected="true">공지 사항</a>
+              <a class="" id="v-pills-home-tab" href="board.html" role="tab" aria-controls="v-pills-home"
+                aria-selected="true">시험 일정표</a>
+              <a class="" id="v-pills-profile-tab" href="certification.html" role="tab" aria-controls="v-pills-profile"
+                aria-selected="false">자격증</a>
+              <a class="" id="v-pills-profile-tab" href="guin.html" role="tab" aria-controls="v-pills-profile"
+                aria-selected="false">구인 구직</a>
+              <a class="active" id="v-pills-profile-tab" href="reference.html" role="tab"
+                aria-controls="v-pills-profile" aria-selected="false">자료실</a>
+              <a class="" id="v-pills-profile-tab" href="Gallery.html" role="tab" aria-controls="v-pills-profile"
+                aria-selected="false">갤러리</a>
             </div>
           </div>
         </div>
@@ -122,8 +123,8 @@
         <div class="col-xl-9 col-lg-8 col-md-7">
 
           <div class="section-intro pb-60px">
-            <p>NOTICE</p>
-            <h2>공지<span class="section-intro__boardStyle">사항</span></h2>
+            <p>Reference</p>
+            <h2> <span class="section-intro__boardStyle">자료실</h2>
           </div>
           <div class="board-form spad pb-0">
             <form class="comment-form boardDetail-form --contact">
@@ -158,10 +159,10 @@
           </div>
 
           <div class="row detail-btns">
-            <a href="./DetailNotice.html"><button type="submit" value="submit"
+            <a href="./DetailReference.html"><button type="submit" value="submit"
                 class="detail-button button button-confirm">이전글</button></a>
 
-            <a href="./DetailNotice.html"><button type="submit" value="submit"
+            <a href="./DetailReference.html"><button type="submit" value="submit"
                 class="detail-button button button-confirm">다음글</button></a>
           </div>
         </div>

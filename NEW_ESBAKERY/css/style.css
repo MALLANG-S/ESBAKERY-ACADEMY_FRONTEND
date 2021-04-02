@@ -5818,3 +5818,7 @@ a {
 .select-course{
   margin-left: 13%;
 }
+
+#default-select-register{
+  width: 100%;
+}

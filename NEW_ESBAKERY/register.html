@@ -24,7 +24,7 @@
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
-					<a class="navbar-brand logo_h" href="index.html" style="width:20%; height:10%;"><img
+					<a class="navbar-brand logo_h" href="main2.php" style="width:20%; height:10%;"><img
 							src="img/logo.png" alt="" style="width:90%; height:90%;"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -45,11 +45,13 @@
 									aria-haspopup="true" aria-expanded="false">교육 과정</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="course.html">일반생 과정</a></li>
-									<li class="nav-item"><a class="nav-link" href="NationalCourse.html">국비(실업자) 과정</a></li>
+									<li class="nav-item"><a class="nav-link" href="NationalCourse.html">국비(실업자) 과정</a>
+									</li>
 									<li class="nav-item"><a class="nav-link" href="NationalCourse-1.html">국비(재직자) 과정</a>
 									</li>
 									<li class="nav-item"><a class="nav-link" href="DayCourse.html">일일 체험반</a></li>
-									<li class="nav-item"><a class="nav-link" href="ImpairmentCourse.html">산재 장애인 훈련생</a></li>
+									<li class="nav-item"><a class="nav-link" href="ImpairmentCourse.html">산재 장애인 훈련생</a>
+									</li>
 									<li class="nav-item"><a class="nav-link" href="baking20.html">제빵 20</a></li>
 									<li class="nav-item"><a class="nav-link" href="Confectionery20.html">제과 20</a></li>
 								</ul>
@@ -76,9 +78,9 @@
 							</li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">문의/예약</a></li>
 						</ul>
-	
+
 						<ul class="nav-shop">
-							<li class="nav-item"><a class="button button-header" href="login.html">로그인</a></li>
+							<li class="nav-item"><a class="button button-header" href="new_login.php">로그인</a></li>
 						</ul>
 					</div>
 				</div>
@@ -86,7 +88,7 @@
 		</div>
 	</header>
 	<!--================ End Header Menu Area =================-->
-	
+
 
 	<!-- ================ start banner area ================= -->
 	<section class="blog-banner-area" id="category">
@@ -128,21 +130,43 @@
 									onfocus="this.placeholder = ''" onblur="this.placeholder = '아이디'">
 							</div>
 							<div class="col-md-4 form-group">
-								<button type="submit" value="submit"
-									class="button button-confirm">중복 확인</button>
+								<button type="submit" value="submit" class="button button-confirm">중복 확인</button>
 							</div>
 							<div class="col-md-12 form-group">
 								<input type="text" class="form-control" id="password" name="password"
 									placeholder="비밀 번호" onfocus="this.placeholder = ''"
 									onblur="this.placeholder = '비밀 번호'">
 							</div>
-							<div class="col-md-12 form-group">
+							<div class="col-md-12 col-lg-12 form-group">
 								<input type="text" class="form-control" id="confirmPassword" name="confirmPassword"
 									placeholder="비밀 번호 확인" onfocus="this.placeholder = ''"
 									onblur="this.placeholder = '비밀 번호 확인'">
 							</div>
 							<div class="col-md-12 form-group">
-								<input type="text" class="form-control" id="passwordForgotAnswer" name="passwordForgotAnswer" placeholder="비밀번호 분실 시 답변"
+								<select style="width: 100%;">
+									<option selected>선택하시오.</option>
+									<option value="1">내가 좋아하는 캐릭터는?</option>
+									<option value="1">타인이 모르는 자신만의 신체비밀이 있다면?</option>
+									<option value="1">자신의 인생 좌우명은?</option>
+									<option value="1">초등학교 때 기억에 남는 짝꿍 이름은?</option>
+									<option value="1">유년시절 가장 생각나는 친구 이름은?</option>
+									<option value="1">가장 기억에 남는 선생님 성함은?</option>
+									<option value="1">친구들에게 공개하지 않은 어릴 적 별명이 있다면?</option>
+									<option value="1">다시 태어나면 되고 싶은 것은?</option>
+									<option value="1">가장 감명깊게 본 영화는?</option>
+									<option value="1">읽은 책 중에서 좋아하는 구절이 있다면?</option>
+									<option value="1">기억에 남는 추억의 장소는?</option>
+									<option value="1">인상 깊게 읽은 책 이름은?</option>
+									<option value="1">자신의 보물 제1호는?</option>
+									<option value="1">받았던 선물 중 기억에 남는 독특한 선물은?</option>
+									<option value="1">자신이 두번째로 존경하는 인물은?</option>
+									<option value="1">아버지의 성함은?</option>
+									<option value="1">어머니의 성함은?</option>
+								</select>
+							</div>
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" id="passwordForgotAnswer"
+									name="passwordForgotAnswer" placeholder="비밀번호 분실 시 답변"
 									onfocus="this.placeholder = ''" onblur="this.placeholder = '비밀번호 분실 시 답변'">
 							</div>
 							<div class="col-md-12 form-group">
@@ -154,17 +178,14 @@
 									onfocus="this.placeholder = ''" onblur="this.placeholder = '이메일'">
 							</div>
 							<div class="col-md-4 form-group">
-								<button type="submit" value="submit"
-									class="button button-confirm">중복 확인</button>
+								<button type="submit" value="submit" class="button button-confirm">중복 확인</button>
 							</div>
 							<div class="col-md-8 form-group">
-								<input type="text" class="form-control" id="username" name="username"
-									placeholder="별명" onfocus="this.placeholder = ''"
-									onblur="this.placeholder = '별명'">
+								<input type="text" class="form-control" id="username" name="username" placeholder="별명"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = '별명'">
 							</div>
 							<div class="col-md-4 form-group">
-								<button type="submit" value="submit"
-									class="button button-confirm">중복 확인</button>
+								<button type="submit" value="submit" class="button button-confirm">중복 확인</button>
 							</div>
 							<div class="col-md-12 form-group">
 								<input type="text" class="form-control" id="birthday" name="birthday" placeholder="생년월일"
@@ -175,8 +196,9 @@
 									onfocus="this.placeholder = ''" onblur="this.placeholder = '서명'">
 							</div>
 							<div class="col-md-12 form-group">
-								<input type="text" class="form-control" id="securecode" name="securecode" placeholder="보안 문자"
-									onfocus="this.placeholder = ''" onblur="this.placeholder = '보안 문자'">
+								<input type="text" class="form-control" id="securecode" name="securecode"
+									placeholder="보안 문자" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = '보안 문자'">
 							</div>
 							<div class="col-md-12 form-group">
 								<div class="creat_account">
@@ -197,8 +219,7 @@
 								</div>
 							</div>
 							<div class="col-md-12 form-group">
-								<button type="submit" value="submit"
-									class="button button-register w-100">회원 가입</button>
+								<button type="submit" value="submit" class="button button-register w-100">회원 가입</button>
 							</div>
 						</form>
 					</div>
@@ -259,10 +280,10 @@
 								<p class="sm-head">
 									<span class="fa fa-envelope"></span>
 									FAX
-								  </p>
-								  <p>
+								</p>
+								<p>
 									055-339-7664
-								  </p>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -277,7 +298,8 @@
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						Copyright &copy;<script>
 							document.write(new Date().getFullYear());
-						</script> All rights reserved ESBAKERY | This template is made with by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						</script> All rights reserved ESBAKERY | This template is made with by <a
+							href="https://colorlib.com" target="_blank">Colorlib</a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</p>
 				</div>
