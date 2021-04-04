@@ -5857,3 +5857,74 @@ a {
   background: #260101;
   opacity: 1;
 }
+
+.registerAgree_box_area .registerAgree_box_img {
+  height: 350px;
+
+  position: relative;
+}
+
+@media (min-width: 1000px) {
+  .registerAgree_box_area .registerAgree_box_img {
+    height: 800px;
+  }
+}
+
+@media (min-width: 991px) {
+  .registerAgree_box_area .registerAgree_box_img {
+    margin-right: -30px;
+  }
+}
+
+.registerAgree_box_area .registerAgree_box_img img {
+  width: 100%;
+}
+
+.registerAgree_box_area .registerAgree_box_img:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #260101;
+  opacity: 0.9;
+}
+
+.registerAgree_box_area .registerAgree_box_img .hover {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.registerAgree_box_area .registerAgree_box_img .hover h4 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.registerAgree_box_area .registerAgree_box_img .hover p {
+  max-width: 390px;
+  margin: 0px auto 28px;
+  color: #fff;
+}
+
+.registerAgree_box_area .registerAgree_box_img .hover .primary-btn {
+  border-radius: 0px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.registerAgree_box_area .registerAgree_box_img .hover .primary-btn:hover:before {
+  left: 260px;
+}
+
+.registerAgree_box_area .registerAgree_box_img .button:hover {
+  background: #260101 !important;
+  color: #fff !important;
+  border-color: #260101 !important;
+}
